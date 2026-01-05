@@ -12,6 +12,12 @@ Python tools to perform causal inference when the treatment of interest is conti
 </p>
 
 
+## Currently getting a makeover. Refactor and modernization is happening:
+
+* Packaging & Build System: Updating to run in python 3.13+, updating to latest PEP build standards
+* CI/CD: Shifting away from Travis CI to GitHub Actions
+* Updating how the dependencies are used: `pandas` and `NumPy` have undergone major, breaking updates
+* Switching to `myst-parser` to move away from RST documentation
 
 ## Table of Contents
 
